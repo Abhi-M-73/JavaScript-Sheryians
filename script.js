@@ -87,17 +87,66 @@
 
 // symbol = Symbol is a primitive data type introduced in ECMAScript6 (ES6). It is used to create unique and immutable identifiers.
 
-var symbol1 = Symbol();
-var symbol2 = Symbol('description');
-console.log(symbol1);  // Symbol()
-console.log(symbol2);  // Symbol(description)
+// var symbol1 = Symbol();
+// var symbol2 = Symbol('description');
+// console.log(symbol1);  // Symbol()
+// console.log(symbol2);  // Symbol(description)
 
-var sym1 = Symbol(10);
-var sym2 = Symbol(10);
-console.log(sym1 === sym2);
+// var sym1 = Symbol(10);
+// var sym2 = Symbol(10);
+// console.log(sym1 === sym2);
+
+//Output
+// alert("Hello");
+// console.log("Hello");
+
+
+
+// Input = prompt function always return string type value.
+// var num1 = prompt("Enter a number");
+// var num2 = prompt("Enter second number")
+// console.log(num1 + num2);
+// console.log(typeof num1);/
+
+// Input
+// var res = confirm("Are you ready?");
+// console.log(res);
+// console.log(typeof res);
 
 
 
 
+// Type Conversion
+// 1. Implicit type conversion
+//  12 + "hello" = "12hello";           //computer(PL) does that
+
+// 2. Explicit type conversion          //developers does that ( + / Number() )
+// var num1 = Number(prompt("Enter a number"));
+// var num2 = +prompt("Enter second number");
+// console.log(num1 + num2);
+// console.log(typeof num1);
+
+
+// Variable Scope
+// 1. Local Variable
+// 2. Global Variable
+
+
+// var age = 15;      //  Global Variable
+
+// {
+//     let city = "Bhopal";    //Mutable Loacal Variable
+//     city = "Indore";
+//     console.log(city);
+    
+//     const name = "Sid";    // Immutable Local Variable
+//     name = abhi;
+//     console.log(name); //error because can't change the value of const.
+    
+// }  
+// console.log(city);  // error (because access is out of scope)
+// console.log(name);  //
+
+// JIT Compiler in JS =
 
 
