@@ -150,3 +150,48 @@
 // JIT Compiler in JS =
 
 
+
+
+
+
+//Oprators 
+
+// 1. Arithmatic Operator = + , - , * , / , % , **
+ let n = 2;
+ let m = 11;
+ let sum = n + m;
+//  console.log(`The sum of ${n} and ${m} is ${sum}`);
+ let div = n / m;
+//  console.log(`The divison of ${n} and ${m} is ${div}`);
+ let mul = n * m;
+//  console.log(`The multiplication of ${n} and ${m} is ${mul}`);
+ let sub = n - m;
+//  console.log(`The substraction of ${n} and ${m} is ${sub}`);
+ let mod = m % n;
+//  console.log(`The modulas of ${m} and ${n} is ${mod}`);
+ let pow = m ** n;
+//  console.log(`The power of ${m} of ${n} is ${pow}`);
+ 
+ // shorthand operators = += , -=, *=, /= , %= , **=
+ let a = 5;
+ a += 5;
+ console.log(a);
+ a -= 5;
+ console.log(a);
+ a *= 5;
+ console.log(a);
+ a /= 5;
+ console.log(a);
+ a %= 5;
+ console.log(a);
+ a **= 5;
+ console.log(a);
+
+
+// 2. Comparison Oprator
+// 3. Assignment Operator
+// 4. 
+// unarary operators  = ++increment , --increment ,increment++ , decrement--
+// binary operators = + , - , * , / , % , ** 
+
+
