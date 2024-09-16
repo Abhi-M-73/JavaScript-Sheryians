@@ -172,26 +172,59 @@
  let pow = m ** n;
 //  console.log(`The power of ${m} of ${n} is ${pow}`);
  
+
+
  // shorthand operators = += , -=, *=, /= , %= , **=
- let a = 5;
- a += 5;
- console.log(a);
- a -= 5;
- console.log(a);
- a *= 5;
- console.log(a);
- a /= 5;
- console.log(a);
- a %= 5;
- console.log(a);
- a **= 5;
- console.log(a);
+//  let a = 5;
+//  a += 5;
+// //  console.log(a);
+//  a -= 5;
+// //  console.log(a);
+//  a *= 5;
+// //  console.log(a);
+//  a /= 5;
+// //  console.log(a);
+//  a %= 5;
+// //  console.log(a);
+//  a **= 5;
+// //  console.log(a);
 
 
-// 2. Comparison Oprator
-// 3. Assignment Operator
-// 4. 
+
 // unarary operators  = ++increment , --increment ,increment++ , decrement--
+
+// let b =12;
+// let res = ++b + ++b + ++b + b--;       //  13 + 14 + 15 + 15 = 57
+// console.log(res); // 57
+// console.log(b);  //15-1 = 14
+
+
+
+// 2. Comparison Oprator =   == , != , <= , >= , > , < , === , !==
+
+let x = 5;
+let y = 10;
+let res1 = x == y;
+console.log(res1);
+
+let res2 = x != y;
+console.log(res2);
+
+let a = "Helllo";
+let b = "Hi";
+let res3 = a > b;  // e > i = i(on the base of ascii value)
+//It compares between non equal character
+console.log(res3); //false
+
+
+
+
+
+
+
+
+// 3. Assignment Operator =
+
 // binary operators = + , - , * , / , % , ** 
 
 
