@@ -200,24 +200,37 @@
 
 
 
-// 2. Comparison Oprator =   == , != , <= , >= , > , < , === , !==
+// 2. Comparison Oprator =   == , != , <= , >= , > , < , === , !==      (it is always return to boolean result = true/false)
 
-let x = 5;
-let y = 10;
-let res1 = x == y;
-console.log(res1);
+// let x = 5;
+// let y = 10;
+// let res1 = x == y;
+// console.log(res1);
 
-let res2 = x != y;
-console.log(res2);
+// let res2 = x != y;
+// console.log(res2);
 
-let a = "Helllo";
-let b = "Hi";
-let res3 = a > b;  // e > i = i(on the base of ascii value)
-//It compares between non equal character
-console.log(res3); //false
+// let a = "Helllo";
+// let b = "Hi";
+// let res3 = a > b;      // e > i = i(on the base of ascii value)
+// It compares between non equal character
+// console.log(res3); //false
+
+
+// 4. Logical operators && || ! result(a/c to the data which is logically compared)
+// falsy value = 0, '' , null, undefined , NaN , false
+
+//comparison b/w boolean values
+// true && true && true = true
+// true && false && true = false
+// true || false || true = true
+// false || false || false = false
 
 
 
+// camprison b/w values
+// console.log(0 || 8 || true || undefined );
+// console.log(1 && -0.8 && true && null && 12 );
 
 
 
