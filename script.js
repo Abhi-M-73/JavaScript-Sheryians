@@ -23,8 +23,8 @@
 // 2. variable name must not include any spacial character other than _ 
 // 3. variable name is a single word,
 // 4. camelCase = helloWord
-    //   snake_case = hello_word
-    //   PaskalCase = HelloWord
+//   snake_case = hello_word
+//   PaskalCase = HelloWord
 
 
 //DataTypes
@@ -138,11 +138,11 @@
 //     let city = "Bhopal";    //Mutable Loacal Variable
 //     city = "Indore";
 //     console.log(city);
-    
+
 //     const name = "Sid";    // Immutable Local Variable
 //     name = abhi;
 //     console.log(name); //error because can't change the value of const.
-    
+
 // }  
 // console.log(city);  // error (because access is out of scope)
 // console.log(name);  //
@@ -157,24 +157,24 @@
 //Oprators 
 
 // 1. Arithmatic Operator = + , - , * , / , % , **
- let n = 2;
- let m = 11;
- let sum = n + m;
+let n = 2;
+let m = 11;
+let sum = n + m;
 //  console.log(`The sum of ${n} and ${m} is ${sum}`);
- let div = n / m;
+let div = n / m;
 //  console.log(`The divison of ${n} and ${m} is ${div}`);
- let mul = n * m;
+let mul = n * m;
 //  console.log(`The multiplication of ${n} and ${m} is ${mul}`);
- let sub = n - m;
+let sub = n - m;
 //  console.log(`The substraction of ${n} and ${m} is ${sub}`);
- let mod = m % n;
+let mod = m % n;
 //  console.log(`The modulas of ${m} and ${n} is ${mod}`);
- let pow = m ** n;
+let pow = m ** n;
 //  console.log(`The power of ${m} of ${n} is ${pow}`);
- 
 
 
- // shorthand operators = += , -=, *=, /= , %= , **=
+
+// shorthand operators = += , -=, *=, /= , %= , **=
 //  let a = 5;
 //  a += 5;
 // //  console.log(a);
@@ -239,5 +239,94 @@
 // 3. Assignment Operator =
 
 // binary operators = + , - , * , / , % , ** 
+
+
+
+
+
+// Control flow
+
+// 1.Conditional Statements
+
+
+
+
+// simple if
+// if (condition) {
+//     // true statement
+// }
+
+
+// let num = 10;
+// if (num >= 0) {
+//     console.log("Number is Positive");
+// }
+
+
+// simple if-else
+// if (condition) {
+//     //true statement
+// } else {
+//     //do any thing
+// }
+
+// num = -10;
+// if (num > 0) {
+//     console.log("Number is Positive");
+// }else{
+//     console.log("Number is Negative");  
+// }
+
+
+
+// ladder if-else
+// if (condition) {
+//     // true condition
+// } else if (condition) {
+//     //other true condition
+// } else {
+//     // do any thing
+// }
+
+
+// let num = -1
+// if (num > 0) {
+//     console.log("Number is positive"); 
+// } else if (num == 0) {
+//     console.log("Number is Zero");
+// } else {
+//     console.log("Number is Negative");
+// }
+
+
+
+//nested if-else
+// if (condition) {
+//     if (condition) {
+//         // true condition
+//     } else {
+//         // do other thing
+//     }
+// } else {
+//     // do any thing
+// }
+
+
+
+// let num = -1;
+// if (num > 0) {
+//     console.log("Number is positive");
+//     if (num % 2 == 0) {
+//         console.log("Even Number");
+//     } else {
+//         console.log("Odd Number");
+//     }
+// } else if(num < 0){
+//     console.log("Number is negative");
+// }else{
+//     console.log("Number is Zero");   
+// }
+
+
 
 
