@@ -329,4 +329,78 @@ let pow = m ** n;
 
 
 
+//using multiple operator in if-else
+
+// let num = -10;
+
+// if (num > 0 && num % 2 == 0) {
+//     console.log("Positive Even");
+    
+// } else if(num > 0 && num % 2 != 0){
+//     console.log("Positive Odd");
+    
+// } else if(num < 0 && num % 2 == 0) {
+//     console.log("Negative Even");
+    
+// } else if(num < 0 && num % 2 != 0){
+//     console.log("Negative Odd");
+    
+// }else{
+//     console.log("Zero Number");
+    
+// }
+
+
+
+
+// Switch Case , fall throw, print 1 to 10 using without loop , recursion      (important for interview)
+// let num = 10;
+// switch (num > 0) {
+//     case 1:
+//         console.log("Positive Number");
+//         break;
+
+//     default:
+//         console.log("Negative Number");
+//         break;
+// }
+
+
+
+
+// wap to take input name and age from user and print on console
+// a. print on console
+// let name = prompt("Enter your name");
+// let age = +prompt("Enter your age");
+// console.log(`Name is ${name} and age is ${age}`);
+
+//b. check if user eligible for vote or not and give suitable message and check how many years to take to eligible for vote
+// let age = +prompt("Enter your age");
+// if( age >= 18){
+//     console.log(`You are eligible for vote`);
+// }
+// else{
+//     console.log(`You are not eligible for vote and you have to wait for ${18-age} years.`);
+// }
+
+
+
+// Ternary Oprator
+// const varname = condition ? true statement : false statement
+
+
+
+// wap to take 3 numeric input from the user
+// a. check if all three numbers are equal or any two are eqaul or no one is equal
+let a = +prompt("Enter first number");
+let b = +prompt("Enter second number");
+let c = +prompt("Enter third number");
+
+if (a == b && b == c) {
+    alert("Three side are equal"); 
+} else if(a == b || b == c || c==a ){
+    alert("Two side are equal");
+}else {
+    alert("No side are eqaul");
+}
 
