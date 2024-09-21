@@ -392,15 +392,80 @@ let pow = m ** n;
 
 // wap to take 3 numeric input from the user
 // a. check if all three numbers are equal or any two are eqaul or no one is equal
-let a = +prompt("Enter first number");
-let b = +prompt("Enter second number");
-let c = +prompt("Enter third number");
+// let a = +prompt("Enter first number");
+// let b = +prompt("Enter second number");
+// let c = +prompt("Enter third number");
 
-if (a == b && b == c) {
-    alert("Three side are equal"); 
-} else if(a == b || b == c || c==a ){
-    alert("Two side are equal");
-}else {
-    alert("No side are eqaul");
-}
+// if (a == b && b == c) {
+//     alert("Three side are equal"); 
+// } else if(a == b || b == c || c==a ){
+//     alert("Two side are equal");
+// }else {
+//     alert("No side are eqaul");
+// }
 
+
+
+
+
+// Iterative Statements / Loops 
+// 1. Entry Control LOop     =   for loop and while loop
+// 2. Exit control Loop      =   do while loop
+
+
+//when we know the iteration count of a loop then we should use for loop.
+//when we don't know the iteration count of a loop then we should use while loop.
+//when we want the loop execute at least one time theb we should use do while loop.
+
+
+//process
+// 1. Loop variable
+// 2. Condition Exp
+// 3. Body of loop
+// 4. Updation Exp
+
+// var varname;
+// while (condition) {
+//     //loop statement
+//     //updation
+// }
+
+//while loop
+// let i = 1;
+// while (i <= 10) {
+//     console.log(i);
+//     i++;
+// }
+
+
+// do while 
+// let i = 1;
+//  do{
+//     console.log(i);
+//     i++;
+// }while (i <= 10);
+
+
+//for loop
+// for (let i = 1; i <= 10; i++) {
+//     console.log(i)
+// }array.
+
+
+// for (let i = 1; i <= 10; i++) {
+//     if (i % 2 != 0) {
+//         console.log("skip and continue")                     // got to updation exp and skip the below code
+//         continue;
+//     }
+//     console.log(i);
+// }
+
+
+
+// for (let i = 1; i <= 10; i++) {
+//     if (i === 6) {
+//         console.log("Loop breaked")                     // got to updation exp and skip the below code
+//         break ;
+//     }
+//     console.log(i);
+// }
