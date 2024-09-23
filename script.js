@@ -514,6 +514,26 @@ let pow = m ** n;
 // console.log(`Simple Interest is ${simpleInterest} `);
 
 
-//accept the 3 side of the triangle and find the are with herons formula
-//find the surface area of the sphere
-//find the area and parameter of the circle
+//5.accept the 3 side of the triangle and find the area with herons formula
+// let firstSide = +prompt("Enter first side of triangle");
+// let secondSide = +prompt("Enter second side of triangle");
+// let thirdSide = +prompt("Enter third side of triangle");
+// let semiParameter = (firstSide + secondSide + thirdSide) / 2;    // s = (a + b + c)/2
+// let areaOfTriangle = Math.sqrt(semiParameter * (semiParameter - firstSide) * (semiParameter - secondSide) * (semiParameter - thirdSide));   // A = underroot(s(s-1)(s-b)(s-c))
+// console.log(`Area of triangle is ${areaOfTriangle}`);
+
+
+//6. find the surface area of the sphere
+// let radius = +prompt("Enter radius of sphere");
+// const pi = 3.14;
+// let areaOfSphere = 4*pi*(radius**2);              //A=4πrr
+// console.log(`Surface Area of sphere is ${areaOfSphere}`);
+
+
+//7. find the area and parameter of the circle      
+// let radius = +prompt("Enter radius of cirle");
+// const pi = 3.14;
+// let parameterOfCirlcle = 2*pi*radius;              //C=2πr
+// console.log(`Parameter of cirle is ${parameterOfCirlcle}`);     //A = A=πrr
+// let areaOfCircle = pi*(radius**2);
+// console.log(`Area of circle is ${areaOfCircle}`);
