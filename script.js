@@ -335,19 +335,19 @@ let pow = m ** n;
 
 // if (num > 0 && num % 2 == 0) {
 //     console.log("Positive Even");
-    
+
 // } else if(num > 0 && num % 2 != 0){
 //     console.log("Positive Odd");
-    
+
 // } else if(num < 0 && num % 2 == 0) {
 //     console.log("Negative Even");
-    
+
 // } else if(num < 0 && num % 2 != 0){
 //     console.log("Negative Odd");
-    
+
 // }else{
 //     console.log("Zero Number");
-    
+
 // }
 
 
@@ -469,3 +469,51 @@ let pow = m ** n;
 //     }
 //     console.log(i);
 // }
+
+
+
+
+//1. wap to accept two integers from user and display the sum of them
+// let num1 = +prompt("Enter a number");
+// let num2 = +prompt("Enter second number");
+// alert(`sum = ${num1 + num2}`);
+
+
+//2. wap to swap two number using third variable
+// let a = 10;
+// let b = 5;
+// console.log(`before swaping a is ${a} and b is ${b}`);
+// let temp = a; // 10
+// a = b;  // 5
+// b = temp;  //10
+// console.log(`after swaping a is ${a} and b is ${b}`);
+
+
+
+//2. wap to swap two number without using third variable
+// let a = 10;
+// let b = 5;
+// console.log(`before swaping a is ${a} and b is ${b}`);
+// a = a + b;    // 10 + 5 = 15
+// b = a - b;    // 15 - 5 = 10
+// a = a - b;    // 15 - 10 = 5
+// console.log(`after swaping a is ${a} and b is ${b}`);
+
+
+//3. wap to accept the lenght and width for the reactangle and display its area and parameter;
+// let length = +prompt("Enter length");
+// let width = +prompt("Enter width");
+// alert(`Area of reactangle is ${length * width}`);
+// alert(`Parameter of reactangle is ${2*(length + width)}`);
+
+// 4. find simple interest
+// let principle = +prompt("Enter principle");
+// let rate = +prompt("Enter rate");
+// let time = +prompt("Enter time");
+// let simpleInterest = (principle * rate * time) / 100;
+// console.log(`Simple Interest is ${simpleInterest} `);
+
+
+//accept the 3 side of the triangle and find the are with herons formula
+//find the surface area of the sphere
+//find the area and parameter of the circle
