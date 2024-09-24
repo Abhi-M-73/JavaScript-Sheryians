@@ -520,7 +520,7 @@ let pow = m ** n;
 // let thirdSide = +prompt("Enter third side of triangle");
 // let semiParameter = (firstSide + secondSide + thirdSide) / 2;    // s = (a + b + c)/2
 // let areaOfTriangle = Math.sqrt(semiParameter * (semiParameter - firstSide) * (semiParameter - secondSide) * (semiParameter - thirdSide));   // A = underroot(s(s-1)(s-b)(s-c))
-// console.log(`Area of triangle is ${areaOfTriangle}`);
+// console.log(`Area of triangle is ${areaOfTriangle.toFixed(2)}`);
 
 
 //6. find the surface area of the sphere
@@ -537,3 +537,13 @@ let pow = m ** n;
 // console.log(`Parameter of cirle is ${parameterOfCirlcle}`);     //A = A=πrr
 // let areaOfCircle = pi*(radius**2);
 // console.log(`Area of circle is ${areaOfCircle}`);
+
+
+
+//Function in js 
+//Function initialization / declaration
+function funcName() {
+    console.log("Function body");
+}
+
+funcName();        // function calling
