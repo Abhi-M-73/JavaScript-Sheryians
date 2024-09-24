@@ -542,8 +542,19 @@ let pow = m ** n;
 
 //Function in js 
 //Function initialization / declaration
-function funcName() {
-    console.log("Function body");
-}
+// function funcName() {
+//     console.log("Function body");
+//     return "hello";
+// }
 
-funcName();        // function calling
+// funcName();        // function calling
+
+// let x = funcName();
+// console.log(x);
+
+// function rules
+//1. bydefault function return undefined
+//2. return must be at least last line of the function 
+//3. only single entity must be return by the function 
+//4. function call is replaced by the return value
+//5. code written after return in the function will not be reachable.
