@@ -597,3 +597,59 @@
 // let res = getSum(2, 3);
 // let multiple = 5;
 // console.log(res * multiple);
+
+
+
+//Default Parameter
+// 1. Default parameter must be  the last parameter of the function 
+// 2. there should only 1 default parameter in the function 
+
+// function details(name, batchCode = "MERN-12"){
+//     console.log(name , batchCode);
+// }
+
+// details("Jhon");
+// details("Jhon1");
+// details("Jhon2");
+// details("Jhon3", "B6");
+// details("Jhon4", "B25");
+
+
+//Rest Operator (...) = it hold multiple value.   // (...varName)
+// 1. Rest operator must be  the last parameter of the function 
+// 2. there should only 1 rest parameter in the function 
+// function hobbies(name, ...h){
+//     console.log(name , h);
+// }
+
+// hobbies("john" , "swimming");
+// hobbies("john1" , "swimming" , "reading");
+// hobbies("john2" );
+// hobbies("john3" , "swimming" , "singing", "running");
+// hobbies("john4" , "drawing");
+
+
+
+//Fat Arrow Function 
+// const greet = () => {
+//     return "hello";
+// }
+// let res = greet();
+// console.log(res);
+
+//non-parameterized fat arrow function 
+// const greet = () => "hello";
+// let res = greet();
+// console.log(res);
+
+
+//parameterized fat arrow function 
+// const sum = (a, b) => a + b;
+// let res = sum();
+// console.log(res);
+
+
+
+
+
+    
