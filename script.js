@@ -157,19 +157,19 @@
 //Oprators 
 
 // 1. Arithmatic Operator = + , - , * , / , % , **
-let n = 2;
-let m = 11;
-let sum = n + m;
+// let n = 2;
+// let m = 11;
+// let sum = n + m;
 //  console.log(`The sum of ${n} and ${m} is ${sum}`);
-let div = n / m;
+// let div = n / m;
 //  console.log(`The divison of ${n} and ${m} is ${div}`);
-let mul = n * m;
+// let mul = n * m;
 //  console.log(`The multiplication of ${n} and ${m} is ${mul}`);
-let sub = n - m;
+// let sub = n - m;
 //  console.log(`The substraction of ${n} and ${m} is ${sub}`);
-let mod = m % n;
+// let mod = m % n;
 //  console.log(`The modulas of ${m} and ${n} is ${mod}`);
-let pow = m ** n;
+// let pow = m ** n;
 //  console.log(`The power of ${m} of ${n} is ${pow}`);
 
 
@@ -558,3 +558,42 @@ let pow = m ** n;
 //3. only single entity must be return by the function 
 //4. function call is replaced by the return value
 //5. code written after return in the function will not be reachable.
+
+
+//note: if we want to use any value or operation out side of function then we use to return otherwise we use to console.log()
+// if we use any function in a class that is called method 
+
+//Function -> not compulsary to return somthing
+//Method(Object) -> compulsary to return somthing
+
+// function getName() {
+//     console.log('jhon');
+// }
+
+//  getName();  //our function call (non parameterised function call)
+//  console.log("jhon") ;  //js function call (parameterised function call)
+
+
+// function getName(name) {      // parameter(s)
+//     console.log(name);
+// }
+// getName("jhon");              //argument(s)
+
+
+
+// function getName(name, city) {
+//     console.log(name , city);
+// }
+
+// let t = "jhone";
+// let c = "bhopal";
+// getName(n, c);
+
+
+// function getSum(x , y){
+//     let sum = x + y;
+//     return sum;
+// }
+// let res = getSum(2, 3);
+// let multiple = 5;
+// console.log(res * multiple);
