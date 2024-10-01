@@ -650,6 +650,33 @@
 
 
 
+//temporal dead zone (in let and const ) = when variable is declared already by the compiler but it has no value initialized by the compiler so it is called temporal dead zone.
+// let and const show the temporal dead zone and initialization error.
+// var is partially hoisted so that it show undefine but let and const show the error of initialiozation. 
+// function are fully hoisted because of it is declared and initialized togather. it do't show any error.
 
 
+
+
+// add();                   // no error because of fully hoisted
+//function add(a , b){
+// console.log(a + b);
+// }
+
+
+// add(2, 3)                // it show error because of partially hoisted 
+// var add = (a , b) => {
+// console.log(a + b);
+// } 
+
+
+// 1 . variable with var keyword show partially hoisting
+// 2 . variable with let and const keyword shows no hoisting (TDZ)
+// 3. function with function keyword shows fully hoisting
+// 4. function with arrow function shows no hoisting (TDZ) 
+
+
+
+// immutable / non-reference / premitive 
+// mutable / reference / non-primitive
     
