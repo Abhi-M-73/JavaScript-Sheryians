@@ -679,4 +679,83 @@
 
 // immutable / non-reference / premitive 
 // mutable / reference / non-primitive
-    
+
+
+
+//Object 
+// create the object
+// const profile = {
+//     name : "john",
+//     age : 28,
+// }
+
+// acccess the object 
+// console.log(profile); 
+// console.log(profile.name);      //john
+// console.log(profile["name"]);    //john
+// console.log(typeof profile);      //object
+
+
+
+//add new property in object
+// const profile = {
+//     name: "john",
+//     age: 28,
+// }
+// profile.city = "New York";
+// profile["country"] = "USA";
+// console.log(profile);
+
+
+// Update exiting property of object
+// const profile = {
+//     name: "john",
+//     age: 28,
+// }
+// profile.name = "alex";
+// profile["age"] = 32;
+// console.log(profile);
+
+
+// Delete any property of object
+// const profile = {
+//     name: "john",
+//     age: 28,
+// }
+// delete profile.name;
+// console.log(profile);
+
+
+// const profile = {
+//     name : "john",
+//     age : 28,
+//     city : "Ney York",
+//     isStudent : true,
+// }
+
+//traversing an object
+// for in loop
+// for (const key in profile) {
+//     console.log(key);
+// }
+
+// for (const key in profile) {
+//     console.log(key, ":" , profile[key]);
+// }
+
+
+
+// const profile = {
+//     name : "john",
+//     age : 28,
+//     city : "Ney York",
+//     isStudent : true,
+// }
+//Copying the object
+// const profile2 = Object.assign({}, profile);
+// const profile2 = {...profile};    // spread operator
+// console.log(profile2);
+
+
+
+ // (...)  => when it is used in function then it is called rest operator and when it is used in array and objects for copy properties then it is called spread operator.
