@@ -759,3 +759,52 @@
 
 
  // (...)  => when it is used in function then it is called rest operator and when it is used in array and objects for copy properties then it is called spread operator.
+
+
+ // this = this keyword is basically used for to take reference of parent object 
+//  const profile = {
+//     name : "john",
+//     getName : function(){
+//        console.log(this.name);
+//     }
+//  }
+
+// profile.getName();
+
+
+
+//pure function and impure function 
+// pure function which do not use the data outside of the function is called pure function 
+// pure function which uses the data outside of the function is called impure function
+
+// we can use the the values or variables ligually by the passing parameter in the function  
+
+// let d = "Hello";
+
+// function greet(v){
+//     console.log(v);
+// }
+
+// greet(d);
+
+
+
+// normal function is hold extra data or method so it is use rarely. 
+// we must always use arrow function because it do not hold extra data or methods
+// different between pure function and impure function
+function greet(){
+    console.log(this);
+    console.log(globalThis);
+    console.log(arguments);
+    console.log("Normal function");
+}
+greet();
+console.log("----------------------------------------")
+const greetArrow = () => {
+    console.log(this);
+    console.log(globalThis);
+    console.log(arguments);
+    console.log("Arrow function");
+}
+
+console.log(greetArrow());
