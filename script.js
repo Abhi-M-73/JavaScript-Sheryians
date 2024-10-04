@@ -792,19 +792,61 @@
 // normal function is hold extra data or method so it is use rarely. 
 // we must always use arrow function because it do not hold extra data or methods
 // different between pure function and impure function
-function greet(){
-    console.log(this);
-    console.log(globalThis);
-    console.log(arguments);
-    console.log("Normal function");
-}
-greet();
-console.log("----------------------------------------")
-const greetArrow = () => {
-    console.log(this);
-    console.log(globalThis);
-    console.log(arguments);
-    console.log("Arrow function");
-}
+// function greet(){
+//     console.log(this);
+//     console.log(globalThis);
+//     console.log(arguments);
+//     console.log("Normal function");
+// }
+// greet();
+// console.log("----------------------------------------")
+// const greetArrow = () => {
+//     console.log(this);
+//     console.log(globalThis);
+//     console.log(arguments);
+//     console.log("Arrow function");
+// }
 
-console.log(greetArrow());
+// console.log(greetArrow());
+
+
+
+//Array
+// creation of an array
+// let arr = [10, 15, 20, 35, 80];
+// console.log(arr);
+
+//accessing the array
+// let arr = [10, 15, 20, 35, 80];
+// console.log(arr[0]);
+// console.log(arr.at(-3));    
+
+//updating array
+// let arr = [10, 15, 20, 35, 80];
+// arr[1] = 50;
+// let res1 = arr.push(1, 2, 3);       //returns the new length of array
+// let res2 = arr.unshift(1, 2, 3);    //returns the new length of array
+// console.log(arr);
+// console.log(res1, res2);
+
+
+//deleting elements from array
+// let arr = [10, 15, 20, 35, 80];
+
+// let res1 = arr.pop();       //remove the last element of an array
+// let res2 = arr.shift();     //remove the first element of an array
+// console.log(res1, res2);
+
+// let res3 = arr.splice(3, 2);
+// console.log( res3);
+// console.log(arr);
+
+
+
+//Traversing array
+// let arr = [10, 15, 20, 35, 80];
+// for (const element of arr) {
+//     console.log(element);
+// }
+
+
