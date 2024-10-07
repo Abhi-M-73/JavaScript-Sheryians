@@ -406,8 +406,6 @@
 
 
 
-
-
 // Iterative Statements / Loops 
 // 1. Entry Control LOop     =   for loop and while loop
 // 2. Exit control Loop      =   do while loop
@@ -848,5 +846,58 @@
 // for (const element of arr) {
 //     console.log(element);
 // }
+
+
+//Length of an array
+// let arr = [10, 15, 20, 35, 80];
+// console.log(arr.length);
+
+
+// arr.length = length is property of array
+// arr.push() = push is method of array 
+
+
+//Array Methods
+// forEach vs Map 
+
+//forEach is a mutable method of array which changes value in original array and it takes a callback function and index as a parameter and it don't return any value. 
+// let arr = [10, 15, 20, 35, 80];
+// arr.forEach((element, index) =>{
+//     // console.log(element, index);
+//     arr[index] = element * 2;
+// });
+// console.log(arr);
+
+//map is a immutable method of array which changes value in another copy of original array and it takes a callback function and index as a parameter and it return a new array and return is cumpulsary in this. 
+// let arr = [10, 15, 20, 35, 80];
+// let arrCopy = arr.map((element, index)=>{
+//     return element * 2;
+// });
+// console.log(arr);
+// console.log(arrCopy);
+
+//filter = filter returns an array that meet the condition spacified in a callback function
+// let arr = [10, 15, 20, 35, 80];
+// const filteredArray = arr.filter((element, index)=>{
+//     return element % 2 == 0;
+// });
+// console.log(filteredArray);
+// console.log(arr);
+
+
+//find = find returns only single element of an array that meet the condition spacified in a callback function
+// let arr = [10, 15, 20, 35, 80];
+// let findArray = arr.find((element, index)=>{
+//     return element % 2 == 0;
+// });
+// console.log(findArray);
+
+
+//find = find returns only single index of an array element that meet the condition spacified in a callback function. it return -1 when it not find value
+// let arr = [10, 15, 20, 35, 80];
+// let findInd = arr.findIndex((element, index)=>{
+//     return element == 90;
+// });
+// console.log(findInd);
 
 
