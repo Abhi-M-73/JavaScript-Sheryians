@@ -901,3 +901,143 @@
 // console.log(findInd);
 
 
+//includes method = this methed check the element exits or not in array and its return true and false value. 
+// let arr = [10, 15, 20, 35, 80, 20];
+// console.log(arr.includes(15));
+// console.log(arr.includes(20, 3));
+
+
+//some method = it returns true if any one element satisfied with condition othrewise it returns false.
+// let arr = [10, 15, 20, 35, 80];
+// let someResult = arr.some((value, index) => {
+//     return value % 2 == 0;
+// });
+
+
+//every method =  it returns true if all elements satisfied with condition othrewise it returns false.
+// let arr = [10, 15, 20, 35, 80];
+// let someResult = arr.every((value, index) => {
+//     return value % 2 == 0;
+// });
+
+
+//reduce method = this method takes a callback fn and initialvalue as a parameter. and it's callback take accumulator and current as a parameter
+// array.reduce((accumulator , current)=>{
+//     return accumulator + current;
+// }, initialValue);
+
+// let arr = [10, 15, 20, 35, 80];
+// let sumOfArray = arr.reduce((accumulator , current)=>{
+//     console.log(accumulator, current);
+//     return accumulator + current;
+// }, 0);
+// console.log(sumOfArray);
+
+
+//Array destructuring = it works on the base of indexing
+// let arr = [10, 15, 20, 35, 80];
+// let [one, two, three, four, five] = arr;
+// let [ , , , four, ] = arr;            // for skip any value value we use comma ,
+// console.log(four);
+
+
+//Object destructuring = it works on the base of keys
+// let obj = {
+//     name : "john",
+//     city : "New York",
+//     country : "US",
+// } 
+// let {city , name , country} = obj;
+// console.log(name);
+
+
+
+
+
+/**************************************************************************************************************/
+
+
+
+//JSON = json is known as array of objects.
+// let arr = [{}, {}, {}, {}];    //array of objects
+// console.log(typeof arr);
+
+// let strRes = JSON.stringify(arr);       // json -> string
+// console.log(typeof strRes);
+
+// let jsonRes = JSON.parse(strRes);       // string -> json
+// console.log(typeof jsonRes);
+
+
+/**************************************************************************************************************/
+
+// String 
+// creating string
+// let str = "hello";
+
+// read string 
+// let str = "hello";
+// console.log(str);
+// console.log(str[0]);
+// console.log(str.at(-1));
+
+//string can be reassigned
+// let str = "hello";
+// str = "hiiii";
+// console.log(str);
+
+// str = null;
+// console.log(str);
+
+
+//String Traversing
+// let str = "hello-world";
+// for (let i = 0; i < str.length; i++ ){
+//     console.log(i, str[i]);
+// }
+
+
+// String Methods
+// let str = "hello";
+// let res = str.concat("-hii");
+// console.log(res);
+
+// let str = "hello";
+// let res = str.toLocalUpperCasa();
+// console.log(res);
+
+
+// let str = "HELLO";
+// let res = str.toLocalLowerCasa();
+// console.log(res);
+
+
+// let str1 = "hello      ";
+// let str2 = "       hello";
+// let res1 = str1.trim();
+// let res2 = str2.trim();
+// console.log(res1);
+// console.log(res2);
+
+
+// let str = "hello-world";
+// let res = str.replace("o", "x");
+// console.log(res);
+
+
+// let str = "hello-world";
+// let res = str.replaceAll("o", "x");
+// console.log(res);
+
+
+// let str = "hello-world";
+// let res = str.slice(2, 4);
+// console.log(res);
+
+
+
+
+
+
+
+
