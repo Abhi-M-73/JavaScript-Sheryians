@@ -1036,6 +1036,54 @@
 
 
 
+// Error Handling
+// try catch block is used to handle synchronous (which is run line by line) code errors.
+
+// try {
+//     let a = 10;
+//     console.log(a + b);
+// } catch (error) {
+//     console.log("Something went wrong from the developers end.");
+//     // console.log(error);
+//     // console.log(error.name);
+//     // console.log(error.message);
+// }
+
+
+// try-catch-finally 
+// try {
+//     let a = 10;
+//     // console.log(a + b);
+// } catch (error) {
+//     console.log("Something went wrong from the developers end.");
+// }finally{
+//     console.log("this block will be executed in any condition");
+// }
+
+
+// create custom error
+// try {
+//     let a = 10;
+//     let b = 2;
+//     if (b % 2 == 0) {
+//         // throw new Error("Even value not allowed in b");
+//         throw new TypeError("Even value not allowed in b"); 
+//     }
+// } catch (error) {
+//     // if(error.name == "Error"){
+//     //     console.log(error.message);
+//     // }
+
+//     if (error.name == "TypeError") {
+//         console.log(error.name);
+//         console.log(error.message);
+//     }
+// }
+
+
+
+
+
 
 
 
