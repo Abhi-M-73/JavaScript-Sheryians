@@ -1083,6 +1083,31 @@
 
 
 
+// Synchronous code ex setTimeout()
+// console.log(1);
+
+// setTimeout(() => {
+//     console.log(2);
+// }, 5000);
+
+// console.log(3);
+
+
+
+
+// Synchronous code ex setInterval()
+// console.log(1);
+
+// let count = 1;
+// let id = setInterval(() => {
+//     if(count == 5){
+//         clearInterval(id);
+//     }
+//     console.log(count);
+//     count++;
+// }, 1000);
+
+
 
 
 
