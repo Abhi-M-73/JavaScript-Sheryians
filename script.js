@@ -1094,7 +1094,6 @@
 
 
 
-
 // Synchronous code ex setInterval()
 // console.log(1);
 
@@ -1110,6 +1109,33 @@
 
 
 
+//Promises
+// promises are used to handle the error of async code
+
+
+
+// fetch
+//fetch takes the api and returns the string data in first then we convert the string data in to json by data.json() and we call another then which gives final result/data after that we put catch for error handling
+
+// fetch("https://fakestoreapi.com/products/1")
+// .then((res) => res.json())
+// .then((data) => console.log(data))
+// .catch((error) => console.log(error))
+
+
+// async function getUserData() {
+//     try {
+//         console.log("Start Application");
+//         const stringResult = await fetch("https://fakestoreapi.com/products/1");
+//         const jsonResult = await stringResult.json();
+//         console.log(jsonResult);
+//         console.log("Apllication Ends");
+//     } catch (error) {
+//         console.log(error);
+//     }
+// }
+
+// getUserData();
 
 
 
