@@ -756,10 +756,10 @@
 
 
 
- // (...)  => when it is used in function then it is called rest operator and when it is used in array and objects for copy properties then it is called spread operator.
+// (...)  => when it is used in function then it is called rest operator and when it is used in array and objects for copy properties then it is called spread operator.
 
 
- // this = this keyword is basically used for to take reference of parent object 
+// this = this keyword is basically used for to take reference of parent object 
 //  const profile = {
 //     name : "john",
 //     getName : function(){
@@ -1134,9 +1134,66 @@
 //         console.log(error);
 //     }
 // }
-
 // getUserData();
 
 
+// *****************************************************************************************
+
+// const myPromise = new Promise((resolve, reject) => {
+//     fetch("https://fakestoreapi.com/products/1")
+//         .then((res) => res.json())
+//         .then((data) => resolve(data))
+//         .catch((err) => reject(err));
+// });
+
+// // myPromise.then((data) => console.log(data)).then((err) => console.log(err));
+
+// async function getProduct() {
+//     try {
+//         const product = await myPromise;
+//         console.log(product);
+//     } catch (error) {
+//         console.log(error);
+//     }
+// }
+
+
+// *****************************************************************************************
+
+
+
+
+
+
+
+
+//excaidraw
+
+
+
+// ******************************************* DOM = Document Object Model **********************************************************
+
+
+ 
+//document = document is the pre-define object given by the js which holds the connected html file(index.html).
+// console.log(document);
+
+// id - document.getElementById();
+// class - document.getElementsByClassName();
+// tag - document.getElementsByTagName();
+
+// document.querySelector();                //to select the first/single elements
+// document.querySelectorAll();              //to select the multiple elements
+
+// innerHTML 
+// innerText
+// textContent
+
+
+// let heading = document.querySelector("h1");   //selecting tag 
+// console.log(heading.innerHTML);              // reading tag
+// heading.innerHTML = "DOM";                   // changing value
+// heading.style.color = "blue";                // changing style
+// heading.remove();                            //removing element
 
 
