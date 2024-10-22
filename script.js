@@ -1156,6 +1156,7 @@
 //         console.log(error);
 //     }
 // }
+// getProduct();
 
 
 // *****************************************************************************************
@@ -1174,7 +1175,7 @@
 // ******************************************* DOM = Document Object Model **********************************************************
 
 
- 
+
 //document = document is the pre-define object given by the js which holds the connected html file(index.html).
 // console.log(document);
 
@@ -1195,5 +1196,35 @@
 // heading.innerHTML = "DOM";                   // changing value
 // heading.style.color = "blue";                // changing style
 // heading.remove();                            //removing element
+
+
+
+
+// addEventListener() = use to perform events
+
+// let btn = document.querySelector("button");
+// let heading = document.querySelector("h1");
+// btn.addEventListener("click", () => {
+//     console.log("clicked");
+//     heading.innerHTML = "<i>Hello world!</i>";
+// });
+
+
+
+
+//Que- create a card with html and css and add a button which show follow and the heading which show "strange" when the user click on the button the text of the button changes to unfollow and the heading changes to friend and vice versa
+
+// let heading = document.querySelector("h1");
+// let btn = document.querySelector("button");
+// btn.addEventListener("click", () => {
+//     if (heading.innerHTML === "Friends") {
+//         heading.innerHTML = "Strange";
+//         btn.innerHTML = "follow";
+//     } else {
+//         heading.innerHTML = "Friends";
+//         btn.innerHTML = "UnFollow";
+//     }
+// });
+
 
 
