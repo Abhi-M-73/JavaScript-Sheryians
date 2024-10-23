@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  height: 10%;
+  width: 100%;
+  background-color: lavender;
+  display: flex;
+  justify-content: end;
+  padding: 20px;
+  transition: 0.25s ease-in-out;
+}
+
+.menu {
+  font-size: 30px;
+}
+
+.close {
+  display: none;
+  font-size: 30px;
+}

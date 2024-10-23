@@ -1210,8 +1210,6 @@
 // });
 
 
-
-
 //Que- create a card with html and css and add a button which show follow and the heading which show "strange" when the user click on the button the text of the button changes to unfollow and the heading changes to friend and vice versa
 
 // let heading = document.querySelector("h1");
